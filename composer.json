@@ -1,0 +1,22 @@
+{
+    "name": "kanamania/filemanager",
+    "description": "Manage file uploads, downloads from saving to disk keeping records in database up generating thumbnails",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kanai Lomayani",
+            "email": "kanailomayani@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "intervention/image": "^2.4@dev"
+    },
+	 "autoload": {
+		"psr-4": {
+			"Kanamania\\FileManager\\": "src/"
+		}
+	}
+
+}
